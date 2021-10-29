@@ -1,0 +1,76 @@
+---
+title: "R Basic"
+output:
+  html_document:
+    df_print: paged
+---
+
+> 
+STATISTICS IS THE GRAMMAR OF SCIENCE - KARL PEARSON
+
+#### INTRODUCTION ####
+Welcome to the Statistics computing course with R for Business Analyst. This course will focus on necessary statistics a Business Analyst should know and will provide information on how to use these statistics on relatively large data sets for easy and reproducible analysis 
+
+Why Statistics is important?
+
+Statistical methods are mainly useful to ensure that your data are interpreted correctly. 
+
+What does Statistics for Business Analyst involve?
+
+- Selecting data
+- Sorting data
+- Grouping data and summarizing
+- Derived measures
+- Summary statistics - Central tendency and Measures of dispersion
+- Inferential Statistics
+
+What is R?
+R is a programming language and free software environment for statistical computing and graphics supported by the R Core Team and the R Foundation for Statistical Computing. In 1991 Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand, began an alternative implementation of the basic S language(a commercial predecessor to R, created at Bell Labs), completely independent of S-PLUS, which they began publicizing in 1993. It was named partly after the first names of the first two R authors and partly as a play on the name of S.
+
+#### FIRST STEP ####
+
+##### An Overgrown Calculator #####
+
+
+```{r}
+#Note:This is a code block in R markdown. R markdown is a technology created combining R and markdown to facilitate notebooks, readouts etc. With recent updates you can author powerpoint presentations and books. Use '#' to right a comment such as this one. Or type a mathematical expression such as below:
+
+2+2
+
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+```{r}
+exp(-1)
+```
+
+```{r}
+rnorm(10)
+```
+
+Note: try the same mathematical expressions in the console below. You should see the same output.
+
+The above examples all illustrate how R does some basic math or can generate numbers. But none of this data is saved to memory. Ability to process in memory is one of the key strengths of R. In order to save values to memory we will utilize the Assignment operator '<-'. Alternatively, you could use '=' as an assignment operator, but the best practice is to use '<-' as '=' is also used for other operations as we will see in future notes
+
+```{r}
+a<-2
+b<-2+2
+c<-4
+d<-5
+e=a+b+c+d
+```
+
+Note: although I have used variable names such as a,b,c... above, it is adviced to use meaningful names in real programming tasks. Also avoid using c as a variable name as c() is an important function in R and you wouldn't want to get confused between the variable c and function c. 
+
+##### Vectors #####
+
+The most basic data structure in R is a Vector
+```{r}
+
+```
+
