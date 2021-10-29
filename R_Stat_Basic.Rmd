@@ -72,5 +72,6 @@ Note: although I have used variable names such as a,b,c... above, it is adviced 
 The most basic data structure in R is a Vector. A Vector is a collection of numbers/characters/logical items. 
 ```{r}
 Vector1<-c(1,2,4,8,16)
+Vector2<-c("Hi","Hello","Namasthe")
 ```
 
